@@ -1,2 +1,2 @@
-# ajbozdar.github.io
+# bozdar.github.io
 testing jekyll
