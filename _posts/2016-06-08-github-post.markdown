@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Ghost Town!"
-date:   2016-05-17 02:29:55 +0800
-categories: stories
+title:  "This is GitPost!"
+date:   2016-06-08 08:03:55 +0800
+categories: GitPost
 ---
 
 
