@@ -1,2 +1,4 @@
 # bozdar.github.io
-testing jekyll
+
+
+Testing new skills git plus jekyll combo
