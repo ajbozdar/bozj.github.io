@@ -21,4 +21,4 @@ github_username:  jekyll
 markdown: kramdown
 
 # Plugins
-
+gems: ["jemoji"]
