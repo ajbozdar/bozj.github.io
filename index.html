@@ -1,46 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]> <html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
 <head>
-  <title>The Bozdar Family Website</title>
-  <style type="text/css">
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Helvetica Neue Light", "HelveticaNeue-light", "HelveticaNeue", Helvetica, Verdana, Arial, sans-serif;
-    font-weight: lighter;
+ <meta charset="utf-8">
+ <title>Abdul-Jabbar Bozdar Personal Website and Blog</title>
+ <meta name="Keywords" content="abdul jabbar bozdar, abdul-jabbar,family website">
+ <meta name="description" content="The Bozdar Family Website">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="http://jabbar.bozdar.fm">
+ <meta property="og:site_name" content="Abdul-Jabbar Bozdar Personal Website and Blog">
+ 
+ <link rel="shortcut icon" href="assets/ico/fav.ico">
+ <link rel="stylesheet" href="styles/main.css">
+
+<style>
+html, body {
+  background: #F0FFF0; 
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
   }
 
-  #header {
-    background: #1FAB54;
-    color: #fff;
-    font-size: 2.5em;
-    margin: 1em 0;
-    padding: 1em 0 1em 3em;
+header {
+  
+  background: #111111;  /* AMAZING BLACK */
+  color: #00F8FF;
+  margin: 0;
+  padding: 0.25em 0 0.5em 4em;
   }
   
-  ul {
-    color: #444;
-    line-height: 150%;
-    font-size: 2.5em;
-    margin: 0 0 0 2em;
-    list-style: none;
-  }
+h4 {
+  margin-top: -1.5em;
+}
 
-  li a {
-    color: #1FAB54;
+nav a {
+  color: #00F8FF;
+  display: inline;
+  margin 0;
+  width: 20px;
+  
   }
-  </style>
+  
+#recent-posts {
+  margin: 0;
+  padding: 2em 0 0 2.75em;
+}
+
+.posts {
+  margin-left: 4em;
+}
+
+a:link a:visited {
+    
+    color: #FF4F33;
+    text-decoration: none;
+}
+
+a:hover a:active {
+    background-color: red;
+}
+
+#twitter {
+  margin: 0;
+  padding: 2em 0 0 2.75em;
+}
+
+  
+@media (max-width: 500px) {
+
+html body {
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-wrap: wrap;
+ flex-wrap: wrap;
+ -webkit-align-content: center;
+ align-content: center;
+ 
+}
+
+nav a {
+ display: block;
+ line-height: 200%;
+ width: 50%;
+}
+}
+
+</style>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+
 </head>
+
 <body>
-  <div id="header">The Bozdar Family Website</div>
-  <ul>
-    <li><a href="http://calendar.bozdar.fm/">Calendar</a></li>
-    <li><a href="http://docs.bozdar.fm/">Docs</a></li>
-    <li><a href="http://mail.bozdar.fm/">eMail</a></li>
-    <li><a href="http://jabbar.bozdar.fm/">Abdul-Jabbar's site</a></li>
-  </ul>
+<header>
+  <h1>Abdul-Jabbar Bozdar</h1>
+  <h4>His Personal Website and Experiences</h4>
+<nav>
+
+  <a href="index.html">Index</a>
+  <a href="work.html">myWork</a>
+  <a href="blog.html">Blog</a>
+  <a href="photos.html">Photos</a>
+  <a href="about-me.html">About Me</a>
+ 
+</nav>
+</header>
+
+<div id="recent-posts">
+  <h2>Recent Posts</h2>
+</div>
+
+<div class="posts">
+  <h3><a href="#">This is first post</a></h3>
+  <h3><a href="#">This is second post</a></h3>
+  <h3><a href="#">This is third post</a></h3>
+  <h3><a href="#">This is fourth post</a></h3>
+</div>
+
+<div id="twitter">
+  <a href="https://twitter.com/ajbozdar" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @ajbozdar</a>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
 </body>
 </html>

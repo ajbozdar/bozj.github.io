@@ -1,6 +1,6 @@
 ## BozJ's HTML5 Based Personal Website and Blog
 
-All source code resides here.
+The content is copyrighted.
 
 Twitter: [@ajbozdar] (https://twitter.com/ajbozdar)
 Github: [@bozj] (https://github.com/bozj)
