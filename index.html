@@ -18,53 +18,77 @@
  <link rel="stylesheet" href="styles/main.css">
 
 <style>
-html body {
-  background: #F0FFF0; 
-  font-family: "Courier New", Courier, monospace;
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  background: #f0fff0; 
+  font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;;
   font-weight: lighter;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 auto;
-  
-  }
-
-header {
-  
-  background: #FFF8DC;  /* AMAZING BLACK */
-  color: #000080;
-  margin: 0;
-  padding: 0.25em 0 0.5em 2em;
-  }
-
-nav ul li {
-  color: #000080;
-  list-style: none;
-  display: inline;
-  width: 100%;
-  
-  }
-  
-p {
-  font-size: 2.5em;
-  text-align: center;
 
 }
 
-#twitter {
-  margin: 0;
-  padding: 2em 0 0 2.75em;
+header {
+  background: #f0fff0;  /* AMAZING BLACK */
+  color: #000080;
+  text-align: center;
+  margin: 1.25em 0 0.5em 3em;
+  }
+
+nav ul li {
+  text-align: center;
+  list-style: none;
+  display: inline;
+  width: 100%;
+  margin: 1em 0.5em 0 0;
+  padding: 1em;
+  }
+  
+li a {
+  color: #ff0000;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+  
+h3 {
+  margin: 2em 0 0 2.75em;
+}
+
+.posts {
+
+  list-style: none;
+  line-height: 2.5em;
+  margin-left: 2em;
+}
+
+.socio {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  margin: 2em 0 0 2em;
 }
 
   
 @media (max-width: 500px) {
 
-html body {
+html body h1 h2 h3 nav ul li a p .posts .socio {
  display: -webkit-flex;
  display: flex;
  -webkit-flex-wrap: wrap;
  flex-wrap: wrap;
  -webkit-align-content: center;
  align-content: center;
+ text-align: center;
+ display: block;
+ 
  
 }
 
@@ -79,23 +103,52 @@ html body {
 </head>
 
 <body>
+
 <header>
-  
+ <h1>Abdul-Jabbar Bozdar</h1>
+ <h5>his website and whirling thoughts</h5>
 <nav>
 <ul>
- <li><h1>Abdul-Jabbar Bozdar</h1></li>
  <li><a href="index.html">Index</a></li>
- 
+ <li><a href="work.html">WorkPad</a></li>
+ <li><a href="blog.html">Journal</a></li>
+ <li><a href="photos.html">Photos</a></li>
+ <li><a href="about-me.html">More</a></li>
 </ul>
 </nav>
 </header>
 
-<p>Update In Progress...!</p>
 
-<div id="twitter">
-  <a href="https://twitter.com/ajbozdar" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @ajbozdar</a>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3>Latest Posts</h3>
+
+<div class="posts">
+<ul class="posts">
+<li class="posts"><a href="#">First Post</a></li>
+<li class="posts"><a href="#">Second Post</a></li>
+<li class="posts"><a href="#">Third Post</a></li>
+<li class="posts"><a href="#">Fourth Post</a></li>
+</ul>
 </div>
+
+<br><br><br><br><br>
+
+<footer class="socio">
+<div >
+<p class="socio">Connect:</p>
+<ul>
+ <li class="socio">
+  <a href="https://twitter.com/ajbozdar" class="twitter-follow-button" data-dnt="true" data-show-count="false" target="_blank">Follow @ajbozdar</a>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ </li>
+ <li class="socio">
+  <a href="https://www.goodreads.com/bozj" title="Boždar's book lists" target="_blank">
+  <img border="0" alt="Boždar's book lists (read shelf)" src="https://www.goodreads.com/images/badge/badge1.jpg"></a>
+ </li>
+</ul>
+</div>
+</footer>
+
 
 </body>
 </html>
