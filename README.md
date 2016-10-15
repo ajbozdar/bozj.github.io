@@ -1,4 +1,4 @@
-## BozJ's HTML5 Based Personal Website and Blog
+## BozJ's Jekyll Based Personal Website and Blog
 
 The content is copyrighted.
 
