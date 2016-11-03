@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 monospace;
+  font: 400 16px/1.5 "Courier New", Courier, monospace;
   color: #111;
   background-color: #F0FFF0;
   -webkit-text-size-adjust: 100%;
