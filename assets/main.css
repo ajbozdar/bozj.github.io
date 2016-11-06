@@ -234,16 +234,16 @@ pre {
   width: calc(20% - (1.8em / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(40% - (1.8em / 2));
-  width: calc(40% - (1.8em / 2)); }
+  width: -webkit-calc(35% - (1.8em / 2));
+  width: calc(35% - (1.8em / 2)); }
 
 .footer-col-3 {
   width: -webkit-calc(25% - (1.8em / 2));
   width: calc(25% - (1.8em / 2)); }
 
 .footer-col-4 {
-  width: -webkit-calc(15% - (1.8em / 2));
-  width: calc(15% - (1.8em / 2)); }
+  width: -webkit-calc(20% - (1.8em / 2));
+  width: calc(20% - (1.8em / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
