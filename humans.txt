@@ -1,0 +1,13 @@
+/* JABBAR.BOZDAR.FM */
+
+  Designer:     Abdul-Jabbar Bozdar
+  Twitter:      @ajbozdar
+  Location:     Independent, Mostly on Planet Earth
+
+  Homepage:	https://jabbar.bozdar.fm
+  Last updated: 2016-11-09 03:38:36 +0800
+  Language:     English
+  Built with:   Jekyll 3.3.0 <https://jekyllrb.com>
+                Bluefish 2.2.9 <http://bluefish.openoffice.nl>
+		Leafpad 0.8
+                GNU Image Manipulation Program <https://gimp.org>
