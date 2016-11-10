@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jabbar.bozdar.fm/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://jabbar.bozdar.fm/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jabbar.bozdar.fm/" rel="alternate" type="text/html" /><updated>2016-11-09T03:38:36+08:00</updated><id>https://jabbar.bozdar.fm//</id><title type="html">Jabbar.Bozdar.fm</title><subtitle>Welcome to my personal website and blog!
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jabbar.bozdar.fm/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://jabbar.bozdar.fm/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jabbar.bozdar.fm/" rel="alternate" type="text/html" /><updated>2016-11-11T01:57:56+08:00</updated><id>https://jabbar.bozdar.fm//</id><title type="html">Jabbar.Bozdar.fm</title><subtitle>Welcome to my personal website and blog!
 </subtitle><author><name>Abdul-Jabbar Bozdar</name></author><entry><title type="html">Consequences of Reading!</title><link href="https://jabbar.bozdar.fm/blog/consequences-of-reading.html" rel="alternate" type="text/html" title="Consequences of Reading!" /><published>2016-11-05T01:19:10+08:00</published><updated>2016-11-05T01:19:10+08:00</updated><id>https://jabbar.bozdar.fm/blog/consequences-of-reading</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/consequences-of-reading.html">&lt;p&gt;&lt;img src=&quot;/assets/img/books.jpeg&quot; alt=&quot;Books&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Have you ever felt? Ever learnt? That, there are consequences of reading.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+Have you ever felt or thought that, there are consequences of reading books.&lt;/p&gt;
 
 &lt;p&gt;Reading books and chanting poems. Have you seen people, leaving others alone because they narrated something to them.
-Something which was very important to them and quite useless to listener.&lt;/p&gt;
+Something which was very important toward them and quite useless to listener.&lt;/p&gt;
 
 &lt;p&gt;People who are old and young, and the others, who are also old and young. Breathing, alive!&lt;/p&gt;
 
@@ -30,7 +31,7 @@ Someone ignored something and a living human is no more alive.&lt;/p&gt;
  like an insect chirping in autumn,&lt;br /&gt;
  you will only turn into a haggard old man.&lt;br /&gt;
  And even if you don’t turn into a haggard old man,&lt;br /&gt;
- it’s annoying for others to have to hear you.&lt;br /&gt;&lt;/p&gt;
+ it’s annoying for others to have to hear you.&lt;/p&gt;
 
 &lt;p&gt; It’s so much better&lt;br /&gt;
  to close your eyes, sit in your study,&lt;br /&gt;
@@ -47,11 +48,51 @@ Someone ignored something and a living human is no more alive.&lt;/p&gt;
 
 &lt;p&gt;I just want to display comments. And, that’s all.&lt;/p&gt;
 
-&lt;h2 id=&quot;this-is-third-test-post&quot;&gt;This is third test post.&lt;/h2&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="random-posts" /><summary type="html">Disqus is running me crazy now.</summary></entry><entry><title type="html">Revamped the Site!</title><link href="https://jabbar.bozdar.fm/blog/revamped-the-site.html" rel="alternate" type="text/html" title="Revamped the Site!" /><published>2016-10-15T22:47:28+08:00</published><updated>2016-10-15T22:47:28+08:00</updated><id>https://jabbar.bozdar.fm/blog/revamped-the-site</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/revamped-the-site.html">&lt;p&gt;After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll.&lt;/p&gt;
+&lt;h2 id=&quot;this-is-third-test-post&quot;&gt;This is third test post.&lt;/h2&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="random-posts" /><category term="web-development," /><category term="disqus" /><summary type="html">Disqus is running me crazy now.</summary></entry><entry><title type="html">Revamping the Site!</title><link href="https://jabbar.bozdar.fm/blog/revamped-the-site.html" rel="alternate" type="text/html" title="Revamping the Site!" /><published>2016-10-15T22:47:28+08:00</published><updated>2016-10-15T22:47:28+08:00</updated><id>https://jabbar.bozdar.fm/blog/revamped-the-site</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/revamped-the-site.html">&lt;p&gt;&lt;br /&gt;
+Jekyll is my new CMS, a static site generator actually. But, it does work the old &lt;strong&gt;Joomla&lt;/strong&gt; way.&lt;/p&gt;
 
-&lt;p&gt;I also tried to customise HTML/CSS and JavaScript to publish my blog oriented website. But, it was quite time consuming. It got almost impossible to automate certain blogging elments, like tagging and pagination. To save my time so, I could focus on my real work, Jekyll was the only best choice to implement my new website. At least, it is better, faster and simple than wordpress.&lt;/p&gt;
+&lt;p&gt;You can create standard blog posts using categories, and have permalinks the way you want. My &lt;strong&gt;main reasons to switch&lt;/strong&gt; from 
+Joomla to Jekyll are faster page load, easier content management, and love of going 
+&lt;a href=&quot;/blog/the-first-post.html&quot;&gt;static again&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;keep-visiting-my-jekyll-website&quot;&gt;Keep visiting my Jekyll website!&lt;/h3&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="random-posts" /><summary type="html">After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll.</summary></entry><entry><title type="html">Loveliness of Hometown</title><link href="https://jabbar.bozdar.fm/blog/loveliness-of-hometown.html" rel="alternate" type="text/html" title="Loveliness of Hometown" /><published>2014-04-22T09:30:00+08:00</published><updated>2014-04-22T09:30:00+08:00</updated><id>https://jabbar.bozdar.fm/blog/loveliness-of-hometown</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/loveliness-of-hometown.html">&lt;p&gt;Far away from home, where I spent my childhood.
+&lt;p&gt;The way we are evolving to live on our planet, one day we’ll destroy it ourselves. That day, (you can say doomsday) there will be 
+nothing but plain texts. I think, then a static website will be much simpler to decode compare to a site which uses dynamic languages 
+and having several databases.&lt;/p&gt;
+
+&lt;p&gt;So far, I tried to customise minima (standard theme) the way I want to see it. But, I think, I’ll need a template of mine. I 
+better start thinking about this seriously. &lt;strong&gt;What was the toughest issue for me?&lt;/strong&gt; It was a bit time consuming setting disqus. 
+In Jekyll 3.3, disqus comments are enabled by default in production mode. You just need to write your shortname in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 
+file. Unfortunately, this didn’t work for me due to some sort of &lt;strong&gt;logical error&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I didn’t have that much time to tinker with the code and needed disqus to work right away, so I simply removed the liquid code 
+from disqus_comments.html file which required disqus to work in production mode.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+  &lt;span class=&quot;s&quot;&gt;if page.comments != false and jekyll.environment == &quot;production&quot;&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;if site.url&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;assign disqus_url = page.url | prepend&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;site.url&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;elsif site.github.url&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;assign disqus_url = page.url | prepend&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;site.github.url&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;endif&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;JEKYLL CODE here&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;endif&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And, it just worked like charm.&lt;/p&gt;
+
+&lt;p&gt;Here, I do not recommend offical method of disqus implementation on Jekyll because it would enable disqus 
+on each and every page/post of your Jekyll website. And, each time you will have to write &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true/false&lt;/code&gt; in your YAML 
+front matter to enable and disable it.&lt;/p&gt;
+
+&lt;p&gt;Now, you have an issue: disqus creates a copy of comments whenever it loads on a page (here in my case, now Jekyll is loading in 
+production environment). To avoid this, just go to your disqus advanced settings and limit disqus code to load on your domain.&lt;/p&gt;
+
+&lt;p&gt;That’s it. You hacked it!&lt;/p&gt;
+
+&lt;p&gt;No matter what, you’ll need to tweak a little code of any framework to suit your needs. After all, Jekyll is way better than any 
+other framework to publish websites. I hope, I will spend next one decade with Jekyll.&lt;/p&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="random-posts" /><category term="web-development" /><summary type="html">Jekyll is my new CMS, a static site generator actually. But, it does work the old Joomla way.</summary></entry><entry><title type="html">Loveliness of Hometown</title><link href="https://jabbar.bozdar.fm/blog/loveliness-of-hometown.html" rel="alternate" type="text/html" title="Loveliness of Hometown" /><published>2014-04-22T09:30:00+08:00</published><updated>2014-04-22T09:30:00+08:00</updated><id>https://jabbar.bozdar.fm/blog/loveliness-of-hometown</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/loveliness-of-hometown.html">&lt;p&gt;Far away from home, where I spent my childhood.
 I often miss the place but to shape a new nest, we have to leave the previous one.&lt;/p&gt;
 
 &lt;p&gt;This is how, life goes on!&lt;/p&gt;
@@ -80,7 +121,8 @@ When I come home to you,&lt;br /&gt;
 &lt;p&gt;Enjoyed, didn’t you? What are you waiting for then?&lt;/p&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="literature" /><category term="poetry," /><category term="hometown" /><summary type="html">Far away from home, where I spent my childhood.
 I often miss the place but to shape a new nest, we have to leave the previous one.</summary></entry><entry><title type="html">Father and Son</title><link href="https://jabbar.bozdar.fm/blog/father-and-son.html" rel="alternate" type="text/html" title="Father and Son" /><published>2013-07-16T08:30:00+08:00</published><updated>2013-07-16T08:30:00+08:00</updated><id>https://jabbar.bozdar.fm/blog/father-and-son</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/father-and-son.html">&lt;p&gt;&lt;img src=&quot;/assets/img/father-and-son.jpeg&quot; alt=&quot;father-and-son&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Father and son; they have a unique relationship all the times. I tribute this poem to my dad.
+&lt;p&gt;&lt;br /&gt;
+Father and son; they have a unique relationship all the times. I tribute this poem to my dad.
 In his youth, he worked hard for me and my siblings to well educate us, and helped us to understand the norms of life.
 I, myself, want to be with him all the time.&lt;/p&gt;
 
@@ -123,7 +165,7 @@ May God then teach thee duty;&lt;br /&gt;
 
 &lt;p&gt;. . .&lt;/p&gt;
 
-&lt;p&gt;I believe, you enjoyed the warmth of both poet and poem. What are you waiting for then?&lt;/p&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="literature" /><category term="poetry," /><category term="family" /><summary type="html"></summary></entry><entry><title type="html">The First Post</title><link href="https://jabbar.bozdar.fm/blog/the-first-post.html" rel="alternate" type="text/html" title="The First Post" /><published>2008-12-21T04:35:38+08:00</published><updated>2008-12-21T04:35:38+08:00</updated><id>https://jabbar.bozdar.fm/blog/the-first-post</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/the-first-post.html">&lt;p&gt;Today, I bought my own domain and setup this website. 
+&lt;p&gt;I believe, you enjoyed the warmth of both poet and poem. What are you waiting for then?&lt;/p&gt;</content><author><name>Abdul-Jabbar Bozdar</name></author><category term="literature, poetry, books" /><category term="poetry," /><category term="family" /><summary type="html"></summary></entry><entry><title type="html">The First Post</title><link href="https://jabbar.bozdar.fm/blog/the-first-post.html" rel="alternate" type="text/html" title="The First Post" /><published>2008-12-21T04:35:38+08:00</published><updated>2008-12-21T04:35:38+08:00</updated><id>https://jabbar.bozdar.fm/blog/the-first-post</id><content type="html" xml:base="https://jabbar.bozdar.fm/blog/the-first-post.html">&lt;p&gt;Today, I bought my own domain and setup this website. 
 I will be uploading my resume, sharing my favourite musics, and a lot of good stuff here.&lt;/p&gt;
 
 &lt;p&gt;I am happy like bart, very happy. :)&lt;/p&gt;

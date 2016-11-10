@@ -6,18 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Revamped the Site!</title>
-  <meta name="description" content="After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll.">
+  <title>Revamping the Site!</title>
+  <meta name="description" content="Jekyll is my new CMS, a static site generator actually. But, it does work the old Joomla way.">
   <meta name="p:domain_verify" content="c8e4e77da520f6dcd2ebb1974fa8ea03"/>
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="https://jabbar.bozdar.fm/blog/revamped-the-site.html">  
   <link rel="alternate" type="application/rss+xml" title="Jabbar.Bozdar.fm" href="/feed.xml">
+  <link rel="shortcut icon" href="/assets/ico/favicon.ico" alt="default favicon">
+  
   <!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>Revamped the Site! - Jabbar.Bozdar.fm</title>
-<meta property="og:title" content="Revamped the Site!" />
-<meta name="description" content="After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll." />
-<meta property="og:description" content="After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll." />
+<title>Revamping the Site! - Jabbar.Bozdar.fm</title>
+<meta property="og:title" content="Revamping the Site!" />
+<meta name="description" content="Jekyll is my new CMS, a static site generator actually. But, it does work the old Joomla way." />
+<meta property="og:description" content="Jekyll is my new CMS, a static site generator actually. But, it does work the old Joomla way." />
 <link rel="canonical" href="https://jabbar.bozdar.fm/blog/revamped-the-site.html" />
 <meta property="og:url" content="https://jabbar.bozdar.fm/blog/revamped-the-site.html" />
 <meta property="og:site_name" content="Jabbar.Bozdar.fm" />
@@ -29,9 +31,9 @@
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "BlogPosting",
-"headline": "Revamped the Site!",
+"headline": "Revamping the Site!",
 "datePublished": "2016-10-15T22:47:28+08:00",
-"description": "After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll.",
+"description": "Jekyll is my new CMS, a static site generator actually. But, it does work the old Joomla way.",
 "url": "https://jabbar.bozdar.fm/blog/revamped-the-site.html"}</script>
 <!-- End Jekyll SEO tag -->
 
@@ -173,14 +175,14 @@ max-width: 45em;
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Revamped the Site!</h1>
+    <h1 class="post-title" itemprop="name headline">Revamping the Site!</h1>
     <p class="post-meta"><time datetime="2016-10-15T22:47:28+08:00" itemprop="datePublished">Oct 15, 2016</time>
      <span itemprop="author" itemscope itemtype="http://schema.org/Person"> • <span itemprop="name">Abdul-Jabbar Bozdar</span></span>
     • 
 <span class="reading-time" title="Estimated read time">
   
   
-    1 minute read
+    5 minutes read
   
 </span>
 
@@ -200,11 +202,51 @@ max-width: 45em;
   <br />
 
   <div class="post-content" itemprop="articleBody">
-    <p>After two weeks, trying with different frameworks, I prefered to revamp my website using Jekyll.</p>
+    <p><br />
+Jekyll is my new CMS, a static site generator actually. But, it does work the old <strong>Joomla</strong> way.</p>
 
-<p>I also tried to customise HTML/CSS and JavaScript to publish my blog oriented website. But, it was quite time consuming. It got almost impossible to automate certain blogging elments, like tagging and pagination. To save my time so, I could focus on my real work, Jekyll was the only best choice to implement my new website. At least, it is better, faster and simple than wordpress.</p>
+<p>You can create standard blog posts using categories, and have permalinks the way you want. My <strong>main reasons to switch</strong> from 
+Joomla to Jekyll are faster page load, easier content management, and love of going 
+<a href="/blog/the-first-post.html">static again</a>.</p>
 
-<h3 id="keep-visiting-my-jekyll-website">Keep visiting my Jekyll website!</h3>
+<p>The way we are evolving to live on our planet, one day we’ll destroy it ourselves. That day, (you can say doomsday) there will be 
+nothing but plain texts. I think, then a static website will be much simpler to decode compare to a site which uses dynamic languages 
+and having several databases.</p>
+
+<p>So far, I tried to customise minima (standard theme) the way I want to see it. But, I think, I’ll need a template of mine. I 
+better start thinking about this seriously. <strong>What was the toughest issue for me?</strong> It was a bit time consuming setting disqus. 
+In Jekyll 3.3, disqus comments are enabled by default in production mode. You just need to write your shortname in <code class="highlighter-rouge">_config.yml</code> 
+file. Unfortunately, this didn’t work for me due to some sort of <strong>logical error</strong>.</p>
+
+<p>I didn’t have that much time to tinker with the code and needed disqus to work right away, so I simply removed the liquid code 
+from disqus_comments.html file which required disqus to work in production mode.</p>
+
+<div class="language-yaml highlighter-rouge"><pre class="highlight"><code>
+  <span class="s">if page.comments != false and jekyll.environment == "production"</span>
+    <span class="s">if site.url</span>
+      <span class="s">assign disqus_url = page.url | prepend</span><span class="pi">:</span> <span class="s">site.url</span>
+        <span class="s">elsif site.github.url</span>
+      <span class="s">assign disqus_url = page.url | prepend</span><span class="pi">:</span> <span class="s">site.github.url</span>
+        <span class="s">endif</span>
+  <span class="s">JEKYLL CODE here</span>
+    <span class="s">endif</span>
+
+</code></pre>
+</div>
+
+<p>And, it just worked like charm.</p>
+
+<p>Here, I do not recommend offical method of disqus implementation on Jekyll because it would enable disqus 
+on each and every page/post of your Jekyll website. And, each time you will have to write <code class="highlighter-rouge">comments: true/false</code> in your YAML 
+front matter to enable and disable it.</p>
+
+<p>Now, you have an issue: disqus creates a copy of comments whenever it loads on a page (here in my case, now Jekyll is loading in 
+production environment). To avoid this, just go to your disqus advanced settings and limit disqus code to load on your domain.</p>
+
+<p>That’s it. You hacked it!</p>
+
+<p>No matter what, you’ll need to tweak a little code of any framework to suit your needs. After all, Jekyll is way better than any 
+other framework to publish websites. I hope, I will spend next one decade with Jekyll.</p>
 
 
   </div>
