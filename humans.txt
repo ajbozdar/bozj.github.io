@@ -5,7 +5,7 @@
   Location:     Independent, Mostly on Planet Earth
 
   Homepage:	https://jabbar.bozdar.fm
-  Last updated: 2016-11-12 08:04:24 +0800
+  Last updated: 2016-11-14 16:08:10 +0800
   Language:     English
   Built with:   Jekyll 3.3.0 <https://jekyllrb.com>
                 Bluefish 2.2.9 <http://bluefish.openoffice.nl>
