@@ -1,4 +1,8 @@
-## BozJ's Jekyll Based Personal Website and Blog
+## The version 1.0 was Jekyll based
+
+### The version 2.0 is based on Applied Front-End Technologies.
+
+
 
 The content is copyrighted.
 
