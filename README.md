@@ -11,4 +11,4 @@ Style Guides: Terminal, Regular, Warm, Breeze.
 The content is copyrighted. More: [Abdul-Jabbar Bozdar]("https://aj.bozdar.fm")
 
 Twitter: [@ajbozdar] (https://twitter.com/ajbozdar)
-Github: [@bozj] (https://github.com/bozj)
+Github: [@bozj] (https://github.com/ajbozdar)
