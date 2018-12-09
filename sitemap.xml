@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://ajbozdar.github.io/Welcome-to-My-Writing-Fantascies/</loc>
+<loc>https://ajbozdar.github.io/writing/Welcome-to-My-Writing-Fantascies/</loc>
 <lastmod>2018-12-02T13:18:55+05:00</lastmod>
 </url>
 <url>
-<loc>https://ajbozdar.github.io/Fast-Websites/</loc>
+<loc>https://ajbozdar.github.io/writing/Fast-Websites/</loc>
 <lastmod>2018-12-05T13:18:55+05:00</lastmod>
 </url>
 <url>
@@ -13,6 +13,9 @@
 </url>
 <url>
 <loc>https://ajbozdar.github.io/about/</loc>
+</url>
+<url>
+<loc>https://ajbozdar.github.io/articles/</loc>
 </url>
 <url>
 <loc>https://ajbozdar.github.io/</loc>
