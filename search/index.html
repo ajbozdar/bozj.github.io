@@ -3,18 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Articles | ajbozdar.github.io</title>
+<title>Search | ajbozdar.github.io</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Articles" />
+<meta property="og:title" content="Search" />
 <meta name="author" content="Abdul-Jabbar Bozdar" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="I am a software solutions developer. I code in C# and have fun in Ruby. I believe work speaks more than words. See my Github for more or go to projects page. &lt;3" />
 <meta property="og:description" content="I am a software solutions developer. I code in C# and have fun in Ruby. I believe work speaks more than words. See my Github for more or go to projects page. &lt;3" />
-<link rel="canonical" href="https://ajbozdar.github.io/articles/" />
-<meta property="og:url" content="https://ajbozdar.github.io/articles/" />
+<link rel="canonical" href="https://ajbozdar.github.io/search/" />
+<meta property="og:url" content="https://ajbozdar.github.io/search/" />
 <meta property="og:site_name" content="ajbozdar.github.io" />
 <script type="application/ld+json">
-{"headline":"Articles","@type":"WebPage","url":"https://ajbozdar.github.io/articles/","author":{"@type":"Person","name":"Abdul-Jabbar Bozdar"},"description":"I am a software solutions developer. I code in C# and have fun in Ruby. I believe work speaks more than words. See my Github for more or go to projects page. &lt;3","@context":"http://schema.org"}</script>
+{"headline":"Search","@type":"WebPage","url":"https://ajbozdar.github.io/search/","author":{"@type":"Person","name":"Abdul-Jabbar Bozdar"},"description":"I am a software solutions developer. I code in C# and have fun in Ruby. I believe work speaks more than words. See my Github for more or go to projects page. &lt;3","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/><link type="application/atom+xml" rel="alternate" href="https://ajbozdar.github.io/feed.xml" title="ajbozdar.github.io" /><!-- Hotjar Tracking Code for https://ajbozdar.github.io -->
@@ -46,18 +46,149 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h3 class="post-list-heading">Recent Posts:</h3>
-    <ul class="post-list"><li><span class="post-meta">Dec 5, 2018</span>
-        <h3>
+        <h3 style="text-align: center; color: #3B5999;"><strong>What are you looking?</strong></h3>
+
+<div id="search-searchbar"></div>
+
+<div class="post-list" id="search-hits">
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 5, 2018</span>
+
+        <h2>
           <a class="post-link" href="/writing/Fast-Websites/">
             Fast Websites
           </a>
-        </h3></li><li><span class="post-meta">Dec 2, 2018</span>
-        <h3>
+        </h2>
+
+        <div class="post-snippet"><p>In past, I created many personal websites but all were gone. I hope this will stay here for longer. Thank you very much for your visit. You may be able to see them via <a href="https://archive.org">archive.org</a>.</p>
+</div>
+      </div>
+    
+      <div class="post-item">
+        
+        <span class="post-meta">Dec 2, 2018</span>
+
+        <h2>
           <a class="post-link" href="/writing/Welcome-to-My-Writing-Fantascies/">
             Welcome to My Writing Fantascies!
           </a>
-        </h3></li></ul>
+        </h2>
+
+        <div class="post-snippet"><p>In past, I created many personal websites but all were gone. I hope this will stay here for longer. Thank you very much for your visit. You may be able to see them via <a href="https://archive.org">archive.org</a>.</p>
+</div>
+      </div>
+    
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css" />
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css" />
+
+<script>
+const search = instantsearch({
+  appId: '3SJJWHMOLJ',
+  apiKey: '457ce3004a382e06b30fa6c166100365',
+  indexName: 'MOAJ',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search here...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+</style>
+
+
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
