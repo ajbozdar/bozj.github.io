@@ -1,6 +1,7 @@
 /**
  * Reset some basic elements
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -11,7 +12,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px/1.5 "Montserrat", sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -67,9 +68,10 @@ li > ol {
   margin-bottom: 0; }
 
 /**
- * Headings
+ * Headings -> font-weight: $base-font-weight;
  */
 h1, h2, h3, h4, h5, h6 {
+  font: "Raleway", sans-serif;
   font-weight: 400; }
 
 /**
